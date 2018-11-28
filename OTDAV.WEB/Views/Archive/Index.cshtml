@@ -1,0 +1,33 @@
+﻿
+@using OTDAV.WEB.Controllers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "index";
+}
+
+<body>
+    <a href="@Url.Action("Create","Archive")">Ajouter Archive</a>
+    <table cellpadding="2" cellspacing="2" border="1">
+        <tr>
+            <th>idArchive</th>
+            <th>dateArchivage</th>
+            <th>description</th>
+            <th>nameOeuvre</th>
+            <th>Supprimer</th>
+            <th>Update</th>
+        </tr>
+        @foreach (var p in ViewBag.result)
+        {
+            <tr>
+                <td>@p.idArchive</td>
+                <td>@p.dateArchivage</td>
+                <td>@p.description</td>
+                <td>@p.nameOeuvre</td>
+                <td> @Html.ActionLink("Supprimer", "Delete", "Archive", new { id = p.idArchive }, null)</td>
+                <td> @Html.ActionLink("Edit", "Update", new { arch = p }, null)</td>
+            </tr>
+        }
+
+    </table>
+</body>

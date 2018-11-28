@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.WEB", "OTDAV.WEB\OTDAV.WEB.csproj", "{C06B4841-FF0E-4053-9743-2BF5D447ED02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.SERVICE", "OTDAV.SERVICE\OTDAV.SERVICE.csproj", "{A185F730-7DF2-43A7-92B5-F5BCBFFB55F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.DOMAIN", "OTDAV.DOMAIN\OTDAV.DOMAIN.csproj", "{AF25E931-49A1-41EC-8A85-BA3B0DA266F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTDAV.DATA", "OTDAV.DATA\OTDAV.DATA.csproj", "{237CE705-A99F-4203-950F-067F78AEE434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06B4841-FF0E-4053-9743-2BF5D447ED02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06B4841-FF0E-4053-9743-2BF5D447ED02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06B4841-FF0E-4053-9743-2BF5D447ED02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06B4841-FF0E-4053-9743-2BF5D447ED02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A185F730-7DF2-43A7-92B5-F5BCBFFB55F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A185F730-7DF2-43A7-92B5-F5BCBFFB55F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A185F730-7DF2-43A7-92B5-F5BCBFFB55F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A185F730-7DF2-43A7-92B5-F5BCBFFB55F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF25E931-49A1-41EC-8A85-BA3B0DA266F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF25E931-49A1-41EC-8A85-BA3B0DA266F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF25E931-49A1-41EC-8A85-BA3B0DA266F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF25E931-49A1-41EC-8A85-BA3B0DA266F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237CE705-A99F-4203-950F-067F78AEE434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237CE705-A99F-4203-950F-067F78AEE434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237CE705-A99F-4203-950F-067F78AEE434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237CE705-A99F-4203-950F-067F78AEE434}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283A7AB6-8D17-4B8C-94D5-5FDC4FEF6923}
+	EndGlobalSection
+EndGlobal
